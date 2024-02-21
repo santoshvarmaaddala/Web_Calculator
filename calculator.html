@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="calculator.css">
+        <link rel="icon" type="image/x-icon" href="cal.jpg">
+        
+    </head>
+    <body>
+        <script src="calculator.js"></script>
+        <h1 id ="head"><center>CALCULATOR</center></h1>
+        <div id="container">
+         <form name="calculator">
+            <div id="display">
+              <input type="text" placeholder="0" name="displayresult" />
+            </div>
+            <div id="buttons">
+                <div id="row">
+                    <input type="button" name="b7" value="7"
+                    onclick="numberbtn(b7.value)">
+                    <input type="button" name="b8" value="8"
+                    onclick="numberbtn(b8.value)">
+                    <input type="button" name="b9" value="9"
+                    onclick="numberbtn(b9.value)">
+                    <input type="button" name="add" value="+"
+                    onclick="numberbtn(add.value)">
+                </div>
+                <div id = "row">
+                    <input type="button" name="b4" value="4"
+                    onclick="numberbtn(b4.value)">
+                    <input type="button" name="b5" value="5"
+                    onclick="numberbtn(b5.value)">
+                    <input type="button" name="b6" value="6"
+                    onclick="numberbtn(b6.value)">
+                    <input type="button" name="subb" value="-"
+                    onclick="numberbtn(subb.value)">
+                </div>
+                <div id = "row">
+                    <input type="button" name="b1" value="1"
+                    onclick="numberbtn(b1.value)">
+                    <input type="button" name="b2" value="2"
+                    onclick="numberbtn(b2.value)">
+                    <input type="button" name="b3" value="3"
+                    onclick="numberbtn(b3.value)">
+                    <input type="button" name="mulb" value="*"
+                    onclick="numberbtn(mulb.value)">
+                </div>
+                <div id=""row>
+                    <input type="button" name="b0" value="0"
+                    onclick="numberbtn(b0.value)">
+                    <input type="button" name="potb" value="."
+                    onclick="numberbtn(potb.value)">
+                    <input type="button" name="divb" value="/"
+                    onclick="numberbtn(divb.value)">
+                    <input type="button" id="white"  value="="
+                    onclick="displayresult.value=eval(displayresult.value)">
+                </div>
+            </div>
+         </form>
+        </div>
+    </body>
+</html>
