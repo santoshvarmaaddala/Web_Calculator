@@ -1,7 +1,6 @@
 # Web_Calculator
     Web_Calculator Repo gives us a simple calculator with basic operations.I defined it by minimal set of operations.
-    anyone have interest to part of this miniproject(Web_Calculator) to update the operations or ui of calcultor.plss,
-    pull your request.
+    anyone have interest to part of this miniproject(Web_Calculator) to update the operations or ui of calcultor.
       to reach me -- email -> santoshvarma2166@gmail.com or linkedin url in my profile
 
 # Interface
